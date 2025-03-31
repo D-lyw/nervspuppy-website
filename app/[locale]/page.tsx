@@ -1,31 +1,18 @@
-'use client'
-
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Features from '../components/Features'
 import FAQ from '../components/FAQ'
 import SocialLinks from '../components/SocialLinks'
-import { useEffect } from 'react'
+import ParticleEffect from '../components/ParticleEffect'
+import { locales } from '@/i18n/config'
+import { unstable_setRequestLocale } from 'next-intl/server'
 
-// 创建随机粒子
-const createParticles = () => {
-  const container = document.querySelector('.floating-particles')
-  if (!container) return
-
-  for (let i = 0; i < 20; i++) {
-    const particle = document.createElement('div')
-    particle.className = 'particle'
-    particle.style.left = `${Math.random() * 100}%`
-    particle.style.top = `${Math.random() * 100}%`
-    particle.style.animationDelay = `${Math.random() * 5}s`
-    container.appendChild(particle)
-  }
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }))
 }
 
-export default function Home() {
-  useEffect(() => {
-    createParticles()
-  }, [])
+export default function Home({ params: { locale } }: { params: { locale: string } }) {
+  unstable_setRequestLocale(locale);
 
   return (
     <main className="relative min-h-screen overflow-hidden">
@@ -33,6 +20,7 @@ export default function Home() {
       <div className="grid-background" />
       <div className="glow-effect" />
       <div className="floating-particles" />
+      <ParticleEffect />
       
       {/* 内容 */}
       <Navbar />
