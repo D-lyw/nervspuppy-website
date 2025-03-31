@@ -1,0 +1,70 @@
+{
+  "title": "NervePuppy",
+  "description": "An AI Agent Collection Born for the CKB Community",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "NervePuppy",
+    "subtitle": "An AI Agent Collection Born for the CKB Community",
+    "description": "We leverage AI capabilities and draw inspiration from meme ecosystem IP concepts to design and build NervePuppy, an IP character with both fun and utility, bringing something interesting to the CKB community ecosystem.",
+    "cta": "Learn More"
+  },
+  "features": {
+    "title": "Core Features",
+    "list": {
+      "ai": {
+        "title": "AI Driven",
+        "description": "Content quality assessment using GPT-4 model, intelligent spam filtering"
+      },
+      "blockchain": {
+        "title": "Blockchain Integration",
+        "description": "Seamless integration with CKB testnet/mainnet, supporting automatic tipping"
+      },
+      "social": {
+        "title": "Social Interaction & Curation",
+        "description": "Support content interaction, incentives and curation on Nostr, X (in development) and other platforms"
+      },
+      "docs": {
+        "title": "Documentation Assistant",
+        "description": "CKB documentation Q&A powered by RAG technology"
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "JUST FOR FUN, our goal is to launch NervePuppy from Nantang to the CKB community."
+  },
+  "faq": {
+    "title": "FAQ",
+    "list": {
+      "what": {
+        "question": "What is NervePuppy?",
+        "answer": "NervePuppy is an AI agent collection created for the CKB community. We utilize AI capabilities and meme ecosystem IP attributes to design and build this NervePuppy IP character, giving it both fun and utility."
+      },
+      "capabilities": {
+        "question": "What can NervePuppy do?",
+        "answer": "NervePuppy helps community members better understand and participate in the CKB ecosystem. It can answer questions, provide guidance, share information, and facilitate community interaction in engaging ways."
+      },
+      "how": {
+        "question": "How to use NervePuppy?",
+        "answer": "You can interact with NervePuppy directly through our platform. Whether you're asking CKB-related questions or participating in community activities, NervePuppy will serve you in a professional and friendly manner."
+      },
+      "tech": {
+        "question": "How does NervePuppy work?",
+        "answer": "NervePuppy uses advanced AI technology combined with CKB ecosystem features to understand and respond to user needs. It continuously learns and updates to improve service quality."
+      },
+      "why": {
+        "question": "Why choose a puppy as the character?",
+        "answer": "The puppy character is both friendly and fun, well-representing meme culture characteristics. It also symbolizes loyalty and friendliness, which aligns perfectly with our community service philosophy."
+      }
+    }
+  },
+  "social": {
+    "title": "Find Us Here",
+    "description": "Welcome to interact with NervePuppy on these platforms"
+  }
+} 
